@@ -10,6 +10,8 @@ html {
 
 .page {
   display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -53,5 +55,26 @@ ol {
 
 .content{
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  gap: 30px;
+  inline-size: 1140px;
+}
+
+.search-form{
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.content__details{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-self: stretch;
+  gap: 26px;
+}
+
+.content__list-container{
+  block-size: 298px;
+  overflow-y: auto;
 }
